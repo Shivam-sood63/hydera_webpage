@@ -1,4 +1,5 @@
 import React from 'react'
+import component from "../assets/Component1.png"
 
 const Why = () => {
   return (
@@ -9,7 +10,7 @@ const Why = () => {
             WHY BUILD <br />
            <span className="font-normal">  WITH HYDRA? </span>
           </h1>
-          <img src="src\assets\Component 1.png" alt="" className="inline-block " id="sk" />
+          <img src={component} alt="" className="inline-block " id="sk" />
         </div>
         <div className="px-9 md:w-full md:px-9 lg:w-[50%] text-center">
           <p>

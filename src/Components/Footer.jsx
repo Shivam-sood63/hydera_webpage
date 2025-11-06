@@ -1,11 +1,11 @@
 import React from 'react'
-
+import frame from "..assets/Frame.png"
 const Footer = () => {
   return (
     <div className='bg-gray-800 text-white flex items-center justify-center w-full p-9 '>
       <div className=' ml-15 text-center lg:w-[80%] lg:flex items-center justify-evenly'>
         <div className='w-[50%]'>
-            <img src="src/assets/Frame.png" alt="" className='w-[]'/>
+            <img src={frame} alt="" className='w-[]'/>
         </div>
         <div className='w-[100%] list-none md:w-[100%] lg:w-[50%]'>
            <div className='text-center list-none w-[50%] leading-7'>

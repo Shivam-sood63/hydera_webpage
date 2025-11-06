@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import logo from "../assets/Frame.png"
+import frame from "../assets/Frame1.png"
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
       <nav className='flex md:flex md:justify-start lg:flex w-[90%] lg:items-center lg:justify-around'>
         <div className='flex items-center justify-startr'>
         <img src={logo} alt=""  className='w-[25%] sm:w-[30%] lg:w-[40%] p-1'/> 
-        <img src="src\assets\Frame (1).png" alt="" className='w-[25%] sm:w-[30%] lg:w-[40%] p-1' />
+        <img src={frame} alt="" className='w-[25%] sm:w-[30%] lg:w-[40%] p-1' />
         
         </div>
         <div className=''>

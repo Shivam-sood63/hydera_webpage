@@ -1,4 +1,5 @@
 import React from "react";
+import maskgroup from "..assets/MAskgroup.png"
 
 const Banner = () => {
   return (
@@ -17,7 +18,7 @@ const Banner = () => {
         <button className="mt-3 lg:text-sm px-5 py-2 bg-white text-black hover:bg-gray-700 hover:text-white rounded-2xl">BUILD YOUR WORLD</button>
       </div>
       <div className="lg:w-[50%] flex items-center justify-center md:w[100%]">
-        <img src="src\assets\Mask group.png" alt="" />
+        <img src={maskgroup} alt="" />
       </div>
       </div>
     </div>

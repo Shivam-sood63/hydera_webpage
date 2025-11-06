@@ -1,11 +1,12 @@
 import React from "react";
+import mask from "..assert/Maskgroup1.png"
 
 const AboutHydra = () => {
   return (
     <div className="w-full flex items-center justify-center bg-black text-white" >
       <div className="block lg:w-[80%] lg:flex bg-black items-center justify-center md:block md:pt-5 sm:pt-5">
         <div className="flex sm:items-center sm:justify-center lg:w-[50%] md:w-[100%] md:flex items-center justify-center">
-          <img src="src\assets\Mask group (1).png" alt="" className="w-80" />
+          <img src={mask} alt="" className="w-80" />
         </div>
         <div className="text-center lg:text-left lg:w-[50%] md:w-[100%] md:block sm:items-center sm:justify-center md:text-center p-5">
           <h1 className="text-3xl font-bold">

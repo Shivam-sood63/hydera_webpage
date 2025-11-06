@@ -1,4 +1,5 @@
 import React from "react";
+import comp from "..assets/Component1.png"
 
 const Intro = () => {
   return (
@@ -9,7 +10,7 @@ const Intro = () => {
             INTRODUCTION <br />
            <span className="font-normal"> TO HYDRA VR</span>
           </h1>
-          <img src="src\assets\Component 1.png" alt="" className="inline-block " id="sk" />
+          <img src={comp} alt="" className="inline-block " id="sk" />
         </div>
         <div className="px-9 md:w-full md:px-9 lg:w-[50%] text-center">
           <p>
