@@ -1,5 +1,5 @@
 import React from "react";
-import mask from "..assert/Maskgroup1.png"
+import mask from "../assets/Maskgroup1.png"
 
 const AboutHydra = () => {
   return (

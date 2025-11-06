@@ -1,5 +1,5 @@
 import React from 'react'
-import ellisp from "..assets/Ellipse1.png"
+import ellisp from "../assets/Ellipse1.png"
 
 const Conseption = () => {
   return (

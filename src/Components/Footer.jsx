@@ -1,5 +1,5 @@
 import React from 'react'
-import frame from "..assets/Frame.png"
+import frame from "../assets/Frame.png"
 const Footer = () => {
   return (
     <div className='bg-gray-800 text-white flex items-center justify-center w-full p-9 '>

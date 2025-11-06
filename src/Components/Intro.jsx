@@ -1,5 +1,5 @@
 import React from "react";
-import comp from "..assets/Component1.png"
+import comp from "../assets/Component1.png"
 
 const Intro = () => {
   return (

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import component from "..assets/Component1.png"
+import component from "../assets/Component1.png"
 
 const How = () => {
   return (
